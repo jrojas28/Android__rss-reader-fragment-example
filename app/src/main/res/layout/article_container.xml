@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sample Title"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_marginBottom="5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Author: "
+            android:textStyle="bold"
+            android:textSize="12dp"
+            />
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sample Author"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In the most extensive look yet at the IRA troll factory's Facebook efforts, familiar themes emerge."
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/pubDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="19-19-1999"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textAlignment="textEnd"
+        android:textSize="10dp"
+        />
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:layout_marginTop="5dp"/>-->
+</LinearLayout>
